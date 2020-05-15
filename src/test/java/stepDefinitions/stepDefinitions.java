@@ -27,6 +27,8 @@ public class stepDefinitions extends NewClass{
 	@Then("^check if browser is displayed$")
 	public void check_if_browser_is_displayed() throws Throwable {
 	 System.out.println("Browser is displayed");
+	 System.out.println("Browser");
+	 System.out.println("Browser is ");
 	}
 	
 	@When("^User login into application with \"([^\"]*)\" and password \"([^\"]*)\"$")

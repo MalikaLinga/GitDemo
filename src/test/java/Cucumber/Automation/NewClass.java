@@ -8,5 +8,5 @@ public class NewClass {
 	
 	protected String x= "test" ;
 	
-
+	 
 }
