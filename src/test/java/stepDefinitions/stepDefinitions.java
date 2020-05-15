@@ -2,17 +2,22 @@ package stepDefinitions;
 
 import java.util.List;
 
+import Cucumber.Automation.NewClass;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class stepDefinitions {
+public class stepDefinitions extends NewClass{
 	
 	@Given("^Validate the Browser$")
 	public void validate_the_Browser() throws Throwable {
 	  System.out.println("Check the browser");
+	  
+	  System.out.println(x);
 	}
+	
+	
 
 	@When("^Browser is trigged$")
 	public void browser_is_trigged() throws Throwable {
