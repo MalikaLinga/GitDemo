@@ -15,6 +15,7 @@ public class BaseTest {
 	
 	public static WebDriver getdriver () throws IOException {
 		
+		System.out.println("BaseTest");
 		Properties prop=new Properties();
 		FileInputStream fis= new FileInputStream("E:\\Selenium\\Malika\\Automation\\src\\test\\java\\Cucumber\\Automation\\global.properties");
 		prop.load(fis);
@@ -23,6 +24,8 @@ public class BaseTest {
 		driver= new ChromeDriver();
 		driver.get(prop.getProperty("url"));
 		return driver;
+		
+		
 		
 }
 }
